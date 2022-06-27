@@ -10,7 +10,7 @@ const MoviesDetailsPage = lazy(() =>
 function App() {
   return (
     <>
-      <Suspense fallback={<></>}>
+      <Suspense fallback={<div>Loading...</div>}>
         <Routes>
           <Route element={<Main></Main>}>
             <Route
