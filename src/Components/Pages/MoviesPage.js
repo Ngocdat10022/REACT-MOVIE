@@ -31,6 +31,7 @@ const MoviesPage = () => {
       setLoading(true);
     } else {
       setLoading(false);
+      //
     }
   }, [data]);
 

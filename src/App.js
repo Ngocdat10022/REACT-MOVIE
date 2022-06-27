@@ -28,7 +28,7 @@ function App() {
               element={<MoviesDetailsPage></MoviesDetailsPage>}
             ></Route>
           </Route>
-          <Route path="*" element={<>No Defaults</>}></Route>
+          {/* <Route path="*" element={<>No Defaults</>}></Route> */}
         </Routes>
       </Suspense>
     </>
