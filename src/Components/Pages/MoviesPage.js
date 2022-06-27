@@ -27,10 +27,10 @@ const MoviesPage = () => {
   // const isLoading = !data && !error;
   useEffect(() => {
     console.log(data);
-    if (!data) {
-      setLoading(true);
-    } else {
+    if (data) {
       setLoading(false);
+    } else {
+      setLoading(true);
       //
     }
   }, [data]);

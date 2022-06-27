@@ -23,8 +23,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "predeploy": "react-scripts build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d build",
+    "predeploy": "react-scripts build"
   },
   "eslintConfig": {
     "extends": [
@@ -49,5 +49,6 @@
     "gh-pages": "^4.0.0",
     "postcss": "^8.4.14",
     "tailwindcss": "^3.1.4"
-  }
+  },
+  "homepages": "https://ngocdat10022.github.io/REACT-MOVIE/"
 }
